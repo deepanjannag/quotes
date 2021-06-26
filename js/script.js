@@ -12,6 +12,6 @@ function changeQuote() {
     let author = hexAuthor[chosenIndex];
 
     document.querySelector('span').innerText = quote;
-    document.querySelector('.quote-author').innerText = quote;
+    document.querySelector('.quote-author').innerText = author;
 }
 changeQuote();
